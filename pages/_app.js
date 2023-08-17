@@ -54,7 +54,7 @@ function MyApp({ Component, pageProps }) {
       <NavState>
         <ColorState>
           <Component {...pageProps} />
-          <PreLoader />
+          {/* <PreLoader /> */}
         </ColorState>
       </NavState>
     </Fragment>
