@@ -30,7 +30,7 @@ const Layouts = ({ children, bodyCls, extraPage, light }) => {
           href={`css/skins/${color}.css`}
           rel="stylesheet"
         />{" "}
-        <title>Istanbul - Personal Portfolio</title>
+        <title>Bilal's Portfolio</title>
       </Head>
       <div className="page animated" style={{ animationDuration: "500ms" }}>
         {/* <Switcher /> */}

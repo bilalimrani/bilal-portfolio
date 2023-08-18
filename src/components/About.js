@@ -1,5 +1,6 @@
 import { useContext } from "react";
 import NavContext from "../context/navContext";
+
 const About = () => {
   const { nav } = useContext(NavContext);
   return (
@@ -21,7 +22,7 @@ const About = () => {
             <div className="image-container">
               <img
                 className="img-fluid d-block"
-                src="img/dark-about.jpg"
+                src="img/profile.jpg"
                 alt=""
               />
             </div>
@@ -38,36 +39,35 @@ const About = () => {
                 <li>
                   <h6>
                     <span className="font-weight-600">First Name</span>
-                    Daria
+                    Bilal
                   </h6>
                 </li>
                 <li>
                   <h6>
                     <span className="font-weight-600">Last Name</span>
-                    Taylor
+                    Imrani
                   </h6>
                 </li>
                 <li>
                   <h6>
-                    <span className="font-weight-600">Birthdate</span>21 june
-                    1990
-                  </h6>
+                    <span className="font-weight-600">Birthdate</span>17 Nov
+                    1993                  </h6>
                 </li>
                 <li>
                   <h6>
                     <span className="font-weight-600">Nationality</span>
-                    English
+                    Pakistani
                   </h6>
                 </li>
                 <li>
                   <h6>
-                    <span className="font-weight-600">Experience</span>7 years
+                    <span className="font-weight-600">Experience</span>7+ years
                   </h6>
                 </li>
                 <li>
                   <h6>
                     <span className="font-weight-600">Address</span>
-                    Istanbul
+                    Lahore, Pakistan
                   </h6>
                 </li>
               </ul>
@@ -82,32 +82,31 @@ const About = () => {
                 </li>
                 <li>
                   <h6>
-                    <span className="font-weight-600">Langages</span>
-                    English
+                    <span className="font-weight-600">Languages</span>
+                    English, Urdu
                   </h6>
                 </li>
                 <li>
                   <h6>
-                    <span className="font-weight-600">Phone</span>+34 21 18 40
-                    10
+                    <span className="font-weight-600">Phone</span>+92 315 6745522
                   </h6>
                 </li>
                 <li>
                   <h6>
                     <span className="font-weight-600">Email</span>
-                    you@you.com
+                    bimrani816@gmail.com
                   </h6>
                 </li>
                 <li>
                   <h6>
-                    <span className="font-weight-600">Skype</span>
-                    daria.taylor
+                    <span className="font-weight-600">Github</span>
+                    https://github.com/bilalimrani
                   </h6>
                 </li>
                 <li>
                   <h6>
-                    <span className="font-weight-600">Dribbble</span>
-                    taylor.dribbble
+                    <span className="font-weight-600">LinkedIn</span>
+                    linkedin.com/in/bilal-imrani-722281103/
                   </h6>
                 </li>
               </ul>
@@ -147,20 +146,49 @@ const About = () => {
                       <span className="year">
                         <i className="fa fa-calendar" />
                         <i className="fa fa-caret-right" />
-                        2017 - 2019
+                        May 2021 - present
                       </span>
                       <span className="d-block font-weight-400 uppercase">
-                        web designer
+                        senior software engineer
                         <span className="separator" />
-                        <span className="font-weight-700">Envato</span>
+                        <span className="font-weight-700">Systems Limited</span>
                       </span>
                     </div>
                     <div className="card-body">
-                      <p>
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing
-                        elit, sed diam nonummy nibh euismod tincidunt ut laoreet
-                        diam nonummy.
-                      </p>
+                      <div className="text-white">
+                        <span className="h6">Responsibilities :</span>
+                        <ul className="workExperience-list small">
+                          <li>Analyze, design and develop complex frontend systems to fit client and business
+                            requirements.</li>
+                          <li>Oversee frontend development, maintain and merge code from team members</li>
+                          <li>Coordinate with back-end team and assist frontend team members</li>
+                        </ul>
+                        <span className="small font-weight-bold">Environment :</span>
+                        <span className="small"> ReactJS, Redux, GraphQL, NodeJS, MongoDB, AWS Services</span>
+                      </div>
+                      <br />
+                      <div className="text-white">
+                        <span className="h6">Applications :</span>
+                        <br />
+                        <span className="small font-weight-bold">Application :</span>
+                        <span className="small">  (TAMM, a comprehensive single point access portal for all Abu Dhabi
+                          government services)
+                        </span>
+                        <ul className="workExperience-list small">
+                          <li>Worked as a Full Stack developer from April 2021 to February 2022</li>
+                          <li>Developed TAMM services and tools for Industrial Business Journey</li>
+                          <li>Developed REST APIs using ExpressJS and created documentation using
+                            Swagger
+                          </li>
+                        </ul>
+                        <span className="small font-weight-bold">Environment :</span>
+                        <br />
+                        <span className="small">Technologies :</span>
+                        <span className="small"> ExpressJS (TypeScript), Camunda, ReactJS, Git</span>
+                        <br />
+                        <span className="small">Development Tools :</span>
+                        <span className="small"> VS Code, GitLab, Jira, Camunda Modeler and Cockpit</span>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -173,20 +201,39 @@ const About = () => {
                       <span className="year">
                         <i className="fa fa-calendar" />
                         <i className="fa fa-caret-right" />
-                        2014 - 2017
+                        August 2018 - April 2021
                       </span>
                       <span className="d-block font-weight-400 uppercase">
-                        web developer
+                        senior software engineer
                         <span className="separator" />
-                        <span className="font-weight-700">Twitter</span>
+                        <span className="font-weight-700">NorthBay Solutions</span>
                       </span>
                     </div>
                     <div className="card-body">
-                      <p>
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing
-                        elit, sed diam nonummy nibh euismod tincidunt ut laoreet
-                        diam nonummy.
-                      </p>
+                      <div className="text-white">
+                        <span className="h6">Responsibilities :</span>
+                        <ul className="workExperience-list small">
+                          <li>Analyze, design and develop complex frontend systems to fit client and business
+                            requirements.</li>
+                          <li>Deploy front on AWS</li>
+                          <li>Analyze the system for possible business solutions/bugs/upgrades</li>
+                        </ul>
+                        <span className="small font-weight-bold">Environment :</span>
+                        <span className="small"> ReactJS, Redux, GraphQL, NodeJS, MongoDB, AWS Services</span>
+                      </div>
+                      <br />
+                      <div className="text-white">
+                        <span className="h6">Applications :</span>
+                        <br />
+                        <span className="small font-weight-bold">Application :</span>
+                        <span className="small"> (Intelligize app used by hundreds of customers) </span>
+                        <ul className="workExperience-list small">
+                          <li>Integrated stripe - payment processing system</li>
+                          <li>Integrated GTM for analytics and Klaviyo for tracking users’ behavior</li>
+                        </ul>
+                        <span className="small font-weight-bold">Environment :</span>
+                        <span className="small"> ReactJS, Redux, AWS, Git</span>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -199,20 +246,25 @@ const About = () => {
                       <span className="year">
                         <i className="fa fa-calendar" />
                         <i className="fa fa-caret-right" />
-                        2010 - 2014
+                        September 2016 - March 2018
                       </span>
                       <span className="d-block font-weight-400 uppercase">
-                        Consultant
+                        senior software engineer
                         <span className="separator" />
-                        <span className="font-weight-700">Google</span>
+                        <span className="font-weight-700">CrewLogix</span>
                       </span>
                     </div>
                     <div className="card-body">
-                      <p>
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing
-                        elit, sed diam nonummy nibh euismod tincidunt ut laoreet
-                        diam nonummy.
-                      </p>
+                      <div className="text-white">
+                        <span className="h6">Responsibilities :</span>
+                        <ul className="workExperience-list small">
+                          <li>Analyze, design and develop complex frontend systems to fit client and business
+                            requirements.</li>
+                          <li>Manage GitHub repositories including maintaining README files</li>
+                        </ul>
+                        <span className="small font-weight-bold">Environment :</span>
+                        <span className="small"> ReactJS, Redux, Angular, NodeJS(Express) MUI, Amazon Web Services</span>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -234,13 +286,13 @@ const About = () => {
                       <span className="year">
                         <i className="fa fa-calendar" />
                         <i className="fa fa-caret-right" />
-                        2007 - 2010
+                        2012 - 2016
                       </span>
                       <span className="d-block font-weight-400 uppercase">
-                        Engineering Degree
+                        BS Computer Science
                         <span className="separator" />
                         <span className="font-weight-700">
-                          Istanbul University
+                          Islamia University Bahawalpur
                         </span>
                       </span>
                     </div>
@@ -324,47 +376,32 @@ const About = () => {
             </div>
             {/* Skill Bar Starts */}
             <div className="col-12 col-sm-6 col-md-4">
-              <span className="skill-text">html</span>
+              <span className="skill-text">javascript/typescript</span>
               <div className="chart-bar">
                 <span
                   className="item-progress"
                   data-percent={80}
-                  style={{ width: "80%" }}
+                  style={{ width: "90%" }}
                 />
-                <span className="percent" style={{ right: "calc(20% - 21px)" }}>
-                  80%
+                <span className="percent" style={{ right: "calc(10% - 21px)" }}>
+                  90%
                   <b className="arrow" />
                 </span>
               </div>
             </div>
             {/* Skill Bar Ends */}
+
             {/* Skill Bar Starts */}
             <div className="col-12 col-sm-6 col-md-4">
-              <span className="skill-text">javascript</span>
-              <div className="chart-bar">
-                <span
-                  className="item-progress"
-                  data-percent={60}
-                  style={{ width: "60%" }}
-                />
-                <span className="percent" style={{ right: "calc(40% - 21px)" }}>
-                  60%
-                  <b className="arrow" />
-                </span>
-              </div>
-            </div>
-            {/* Skill Bar Ends */}
-            {/* Skill Bar Starts */}
-            <div className="col-12 col-sm-6 col-md-4">
-              <span className="skill-text">css</span>
+              <span className="skill-text">React (Redux, NextJS)</span>
               <div className="chart-bar">
                 <span
                   className="item-progress"
                   data-percent={75}
-                  style={{ width: "75%" }}
+                  style={{ width: "85%" }}
                 />
-                <span className="percent" style={{ right: "calc(25% - 21px)" }}>
-                  75%
+                <span className="percent" style={{ right: "calc(15% - 21px)" }}>
+                  85%
                   <b className="arrow" />
                 </span>
               </div>
@@ -372,15 +409,15 @@ const About = () => {
             {/* Skill Bar Ends */}
             {/* Skill Bar Starts */}
             <div className="col-12 col-sm-6 col-md-4">
-              <span className="skill-text">jquery</span>
+              <span className="skill-text">angular</span>
               <div className="chart-bar">
                 <span
                   className="item-progress"
                   data-percent={65}
-                  style={{ width: "65%" }}
+                  style={{ width: "85%" }}
                 />
-                <span className="percent" style={{ right: "calc(35% - 21px)" }}>
-                  65%
+                <span className="percent" style={{ right: "calc(15% - 21px)" }}>
+                  85%
                   <b className="arrow" />
                 </span>
               </div>
@@ -388,7 +425,7 @@ const About = () => {
             {/* Skill Bar Ends */}
             {/* Skill Bar Starts */}
             <div className="col-12 col-sm-6 col-md-4">
-              <span className="skill-text">wordpress</span>
+              <span className="skill-text">Node JS (Nest Js, Express Js) </span>
               <div className="chart-bar">
                 <span
                   className="item-progress"
@@ -404,15 +441,15 @@ const About = () => {
             {/* Skill Bar Ends */}
             {/* Skill Bar Starts */}
             <div className="col-12 col-sm-6 col-md-4">
-              <span className="skill-text">angular js</span>
+              <span className="skill-text">Web Pack</span>
               <div className="chart-bar">
                 <span
                   className="item-progress"
                   data-percent={85}
-                  style={{ width: "85%" }}
+                  style={{ width: "80%" }}
                 />
-                <span className="percent" style={{ right: "calc(15% - 21px)" }}>
-                  85%
+                <span className="percent" style={{ right: "calc(20% - 21px)" }}>
+                  80%
                   <b className="arrow" />
                 </span>
               </div>
@@ -420,15 +457,15 @@ const About = () => {
             {/* Skill Bar Ends */}
             {/* Skill Bar Starts */}
             <div className="col-12 col-sm-6 col-md-4">
-              <span className="skill-text">illustrator</span>
+              <span className="skill-text">AWS (S3, EC2, CloudFront)</span>
               <div className="chart-bar">
                 <span
                   className="item-progress"
                   data-percent={60}
-                  style={{ width: "60%" }}
+                  style={{ width: "85%" }}
                 />
-                <span className="percent" style={{ right: "calc(40% - 21px)" }}>
-                  60%
+                <span className="percent" style={{ right: "calc(20% - 21px)" }}>
+                  80%
                   <b className="arrow" />
                 </span>
               </div>
@@ -436,15 +473,15 @@ const About = () => {
             {/* Skill Bar Ends */}
             {/* Skill Bar Starts */}
             <div className="col-12 col-sm-6 col-md-4">
-              <span className="skill-text">after effects</span>
+              <span className="skill-text">GraphQl, Apollo</span>
               <div className="chart-bar">
                 <span
                   className="item-progress"
                   data-percent={75}
-                  style={{ width: "75%" }}
+                  style={{ width: "70%" }}
                 />
-                <span className="percent" style={{ right: "calc(25% - 21px)" }}>
-                  75%
+                <span className="percent" style={{ right: "calc(30% - 21px)" }}>
+                  70%
                   <b className="arrow" />
                 </span>
               </div>
@@ -452,7 +489,39 @@ const About = () => {
             {/* Skill Bar Ends */}
             {/* Skill Bar Starts */}
             <div className="col-12 col-sm-6 col-md-4">
-              <span className="skill-text">photoshop</span>
+              <span className="skill-text">Html, CSS</span>
+              <div className="chart-bar">
+                <span
+                  className="item-progress"
+                  data-percent={80}
+                  style={{ width: "80%" }}
+                />
+                <span className="percent" style={{ right: "calc(20% - 21px)" }}>
+                  80%
+                  <b className="arrow" />
+                </span>
+              </div>
+            </div>
+            {/* Skill Bar Ends */}
+            {/* Skill Bar Starts */}
+            <div className="col-12 col-sm-6 col-md-4">
+              <span className="skill-text">Styled Components, Bootstrap</span>
+              <div className="chart-bar">
+                <span
+                  className="item-progress"
+                  data-percent={80}
+                  style={{ width: "90%" }}
+                />
+                <span className="percent" style={{ right: "calc(10% - 21px)" }}>
+                  90%
+                  <b className="arrow" />
+                </span>
+              </div>
+            </div>
+            {/* Skill Bar Ends */}
+            {/* Skill Bar Starts */}
+            <div className="col-12 col-sm-6 col-md-4">
+              <span className="skill-text">Tailwind Css, Mui</span>
               <div className="chart-bar">
                 <span
                   className="item-progress"

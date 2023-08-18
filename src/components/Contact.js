@@ -67,7 +67,7 @@ const Contact = () => {
                     {" "}
                     <span className="contact-title">Phone</span>
                     <i className="fa fa-whatsapp" />
-                    <span className="contact-content">+216 21 184 010</span>
+                    <span className="contact-content">+92 315 6745522</span>
                   </h6>
                 </li>
                 <li>
@@ -75,21 +75,21 @@ const Contact = () => {
                     {" "}
                     <span className="contact-title">email</span>
                     <i className="fa fa-envelope-o fs-14" />
-                    <span className="contact-content">info@daria.ua</span>
+                    <span className="contact-content">bimrani816@gmail.com</span>
                   </h6>
                 </li>
                 <li>
                   <h6 className="font-weight-600">
                     <span className="contact-title">instagram</span>
                     <i className="fa fa-instagram" />
-                    <span className="contact-content">daria.198</span>
+                    {/* <span className="contact-content">daria.198</span> */}
                   </h6>
                 </li>
                 <li>
                   <h6 className="font-weight-600">
                     <span className="contact-title">Dribbble </span>
                     <i className="fa fa-dribbble" />
-                    <span className="contact-content">daria.dribble</span>
+                    {/* <span className="contact-content">daria.dribble</span> */}
                   </h6>
                 </li>
               </ul>
@@ -98,13 +98,13 @@ const Contact = () => {
                 <h6 className="font-weight-600 uppercase">Social Profiles</h6>
                 <ul className="list-inline social social-intro text-center p-none">
                   <li className="facebook">
-                    <a title="Facebook" href="#">
-                      <i className="fa fa-facebook" />
+                    <a title="Facebook" href="https://github.com/bilalimrani">
+                      <i className="fa fa-github" />
                     </a>
                   </li>
                   <li className="twitter">
-                    <a title="Twitter" href="#">
-                      <i className="fa fa-twitter" />
+                    <a title="Twitter" href="linkedin.com/in/bilal-imrani-722281103/">
+                      <i className="fa fa-linkedin" />
                     </a>
                   </li>
                   <li className="youtube">

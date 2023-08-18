@@ -31,9 +31,11 @@ const Home = ({ leftImg, video, leftImgSrc }) => {
           <h3>Hi there !</h3>
           <AnimationText />
           <p>
-            {`I'm`} a Freelance UI/UX Designer and Developer based in London,
-            England. I strives to build immersive and beautiful web applications
-            through carefully crafted code and user-centric design.
+            {`I'm`} Senior Software Engineer having 7+ years of experience in web
+            development using ReactJS, Angular, NodeJS, AWS,
+            SQL/NoSQL databases and third-party integrations. Experienced in
+            application analysis, design, development and
+            debugging. Having expertise in problem solving, team management, and collaboration with other teams.
           </p>
           <div className="call-to-actions-home">
             <div className="text-left">
