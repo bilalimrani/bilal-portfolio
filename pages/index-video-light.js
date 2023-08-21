@@ -1,7 +1,6 @@
 import dynamic from "next/dynamic";
 import { useContext, useEffect } from "react";
 import About from "../src/components/About";
-import Blog from "../src/components/Blog";
 import Contact from "../src/components/Contact";
 import Home from "../src/components/Home";
 import ColorContext from "../src/context/colorContext";
@@ -29,8 +28,7 @@ const IndexVideoLight = () => {
       {/* Contact Section Starts */}
       <Contact />
       {/* Contact Section Ends */}
-      {/* Blog Section Starts */}
-      <Blog />
+
     </Layouts>
   );
 };

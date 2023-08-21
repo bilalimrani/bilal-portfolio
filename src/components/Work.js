@@ -9,47 +9,57 @@ import {
 
 const workData = [
   {
-    img: "img/projects/project-1.jpg",
+    img: "img/projects/portfolio_1.jpg",
     name: "Image Format",
     format: "img",
-    project: "WEBSITE",
+    project: "BData Solutions Inc.",
     client: "ENVATO",
-    duration: "3 MONTHS",
-    technologies: ["HTML", "JAVASCRIPT"],
-    budget: "1550 USD",
+    duration: "6 MONTHS",
+    technologies: ["React ", " JAVASCRIPT"],
+    budget: "1200 USD",
   },
   {
-    img: "img/projects/project-2.jpg",
+    img: "img/projects/portfolio_2.jpg",
     name: "Youtube Format",
     format: "youtube",
-    project: "WEBSITE",
+    project: "Teaching Side By Side",
     client: "ENVATO",
     duration: "3 MONTHS",
-    technologies: ["HTML", "JAVASCRIPT"],
-    budget: "1550 USD",
+    technologies: ["React ", " PostgreSQL", " JavaScript", " TypeScript"],
+    budget: "1000 USD",
   },
   {
-    img: "img/projects/project-3.jpg",
+    img: "img/projects/portfolio_3.jpg",
     name: "Slider Format",
     format: "slider",
-    project: "WEBSITE",
+    project: "Biot Security",
     client: "ENVATO",
     duration: "3 MONTHS",
-    technologies: ["HTML", "JAVASCRIPT"],
+    technologies: ["React ", " JAVASCRIPT"],
     budget: "1550 USD",
   },
   {
-    img: "img/projects/project-4.jpg",
+    img: "img/projects/portfolio_4.jpg",
     name: "Video Format",
     format: "video",
-    project: "WEBSITE",
+    project: "TAMM- Abu Dhabi Government Services",
     client: "ENVATO",
-    duration: "3 MONTHS",
-    technologies: ["HTML", "JAVASCRIPT"],
+    duration: "12 MONTHS",
+    technologies: ["React ", " JAVASCRIPT"],
     budget: "1550 USD",
   },
   {
-    img: "img/projects/project-5.jpg",
+    img: "img/projects/portfolio_5.jpg",
+    name: "Image Format",
+    format: "img",
+    project: "Toppers Notes",
+    client: "ENVATO",
+    duration: "4 MONTHS",
+    technologies: ["HTML ", " JAVASCRIPT"],
+    budget: "1550 USD",
+  },
+  {
+    img: "img/projects/portfolio_2.jpg",
     name: "Image Format",
     format: "img",
     project: "WEBSITE",
@@ -59,45 +69,35 @@ const workData = [
     budget: "1550 USD",
   },
   {
-    img: "img/projects/project-6.jpg",
+    img: "img/projects/portfolio_7.jpg",
     name: "Image Format",
     format: "img",
-    project: "WEBSITE",
+    project: "Droptrim",
     client: "ENVATO",
-    duration: "3 MONTHS",
-    technologies: ["HTML", "JAVASCRIPT"],
+    duration: "6 MONTHS",
+    technologies: ["React ", " JavaScript", " Typescript"],
     budget: "1550 USD",
   },
-  {
-    img: "img/projects/project-7.jpg",
-    name: "Image Format",
-    format: "img",
-    project: "WEBSITE",
-    client: "ENVATO",
-    duration: "3 MONTHS",
-    technologies: ["HTML", "JAVASCRIPT"],
-    budget: "1550 USD",
-  },
-  {
-    img: "img/projects/project-8.jpg",
-    name: "Image Format",
-    format: "img",
-    project: "WEBSITE",
-    client: "ENVATO",
-    duration: "3 MONTHS",
-    technologies: ["HTML", "JAVASCRIPT"],
-    budget: "1550 USD",
-  },
-  {
-    img: "img/projects/project-9.jpg",
-    name: "Image Format",
-    format: "img",
-    project: "WEBSITE",
-    client: "ENVATO",
-    duration: "3 MONTHS",
-    technologies: ["HTML", "JAVASCRIPT"],
-    budget: "1550 USD",
-  },
+  // {
+  //   img: "img/projects/project-8.jpg",
+  //   name: "Image Format",
+  //   format: "img",
+  //   project: "WEBSITE",
+  //   client: "ENVATO",
+  //   duration: "3 MONTHS",
+  //   technologies: ["HTML", "JAVASCRIPT"],
+  //   budget: "1550 USD",
+  // },
+  // {
+  //   img: "img/projects/project-9.jpg",
+  //   name: "Image Format",
+  //   format: "img",
+  //   project: "WEBSITE",
+  //   client: "ENVATO",
+  //   duration: "3 MONTHS",
+  //   technologies: ["HTML", "JAVASCRIPT"],
+  //   budget: "1550 USD",
+  // },
 ];
 
 const Work = () => {
@@ -107,9 +107,8 @@ const Work = () => {
     <Fragment>
       <section id="work" className={`${nav === "work" ? "active" : ""}`}>
         <div
-          className={`portfolio-container ${
-            active ? "slide-out overflow-hidden" : ""
-          }`}
+          className={`portfolio-container ${active ? "slide-out overflow-hidden" : ""
+            }`}
         >
           {/* Main Heading Starts */}
           <div className="container page-title text-center">
@@ -157,9 +156,8 @@ const Work = () => {
         {workData.map((work, i) => (
           <div
             key={i}
-            className={`project-info-container project-1 ${
-              active === i + 1 ? "slide-in" : ""
-            }`}
+            className={`project-info-container project-1 ${active === i + 1 ? "slide-in" : ""
+              }`}
           >
             {/* Main Content Starts */}
             <div className="project-info-main-content">
@@ -176,7 +174,7 @@ const Work = () => {
             {/* Main Content Ends */}
             {/* Project Details Starts */}
             <div className="projects-info row">
-              <div className="col-12 col-sm-6 p-none">
+              <div className="col-12 col-sm-8 p-none">
                 <h3 className="font-weight-600 uppercase">{work.name}</h3>
                 <ul className="project-details">
                   <li>
@@ -190,7 +188,7 @@ const Work = () => {
                       {work.project}
                     </span>
                   </li>
-                  <li>
+                  {/* <li>
                     <i className="fa fa-user-o" />
                     <span className="font-weight-400 project-label">
                       {" "}
@@ -200,7 +198,7 @@ const Work = () => {
                     <span className="font-weight-600 uppercase">
                       {work.client}
                     </span>
-                  </li>
+                  </li> */}
                   <li>
                     <i className="fa fa-hourglass-o" />
                     <span className="font-weight-400 project-label">
@@ -237,7 +235,7 @@ const Work = () => {
                     </span>
                   </li>
                 </ul>
-                <a href="#" className="btn">
+                <a href="https://www.bdata.ca/" target="_blank" className="btn">
                   <span>
                     <i className="fa fa-external-link" />
                     preview

@@ -441,7 +441,7 @@ const About = () => {
             {/* Skill Bar Ends */}
             {/* Skill Bar Starts */}
             <div className="col-12 col-sm-6 col-md-4">
-              <span className="skill-text">Web Pack</span>
+              <span className="skill-text">WebPack</span>
               <div className="chart-bar">
                 <span
                   className="item-progress"

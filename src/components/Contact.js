@@ -78,20 +78,20 @@ const Contact = () => {
                     <span className="contact-content">bimrani816@gmail.com</span>
                   </h6>
                 </li>
-                <li>
+                {/* <li>
                   <h6 className="font-weight-600">
                     <span className="contact-title">instagram</span>
-                    <i className="fa fa-instagram" />
-                    {/* <span className="contact-content">daria.198</span> */}
-                  </h6>
+                    <i className="fa fa-instagram" /> */}
+                {/* <span className="contact-content">daria.198</span> */}
+                {/* </h6>
                 </li>
                 <li>
                   <h6 className="font-weight-600">
                     <span className="contact-title">Dribbble </span>
-                    <i className="fa fa-dribbble" />
-                    {/* <span className="contact-content">daria.dribble</span> */}
-                  </h6>
-                </li>
+                    <i className="fa fa-dribbble" /> */}
+                {/* <span className="contact-content">daria.dribble</span> */}
+                {/* </h6>
+                </li> */}
               </ul>
               {/* Social Media Profiles Starts */}
               <div className="social">
@@ -107,7 +107,7 @@ const Contact = () => {
                       <i className="fa fa-linkedin" />
                     </a>
                   </li>
-                  <li className="youtube">
+                  {/* <li className="youtube">
                     <a title="Youtube" href="#">
                       <i className="fa fa-youtube" />
                     </a>
@@ -116,7 +116,7 @@ const Contact = () => {
                     <a title="Dribbble" href="#">
                       <i className="fa fa-dribbble" />
                     </a>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
               {/* Social Media Profiles Ends */}

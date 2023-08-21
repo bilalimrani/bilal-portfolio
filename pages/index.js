@@ -1,6 +1,5 @@
 import dynamic from "next/dynamic";
 import About from "../src/components/About";
-import Blog from "../src/components/Blog";
 import Contact from "../src/components/Contact";
 import Home from "../src/components/Home";
 import Layouts from "../src/layouts/Layouts";
@@ -23,8 +22,7 @@ const Index = () => {
       {/* Contact Section Starts */}
       <Contact />
       {/* Contact Section Ends */}
-      {/* Blog Section Starts */}
-      <Blog />
+
     </Layouts>
   );
 };

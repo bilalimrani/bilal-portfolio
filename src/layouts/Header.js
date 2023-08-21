@@ -18,7 +18,7 @@ const menus = [
     name: "get in touch",
     id: "contact",
   },
-  { icon: "fa fa-comments", dkMenuName: "Blog", name: "my Blog", id: "blog" },
+  // { icon: "fa fa-comments", dkMenuName: "Blog", name: "my Blog", id: "blog" },
 ];
 
 const Header = ({ light }) => {
@@ -70,9 +70,8 @@ const Header = ({ light }) => {
       {/* Stretchy Navigation Starts */}
       <div
         ref={domNode}
-        className={`cd-stretchy-nav ${toggle ? "nav-is-visible" : ""} ${
-          light ? nav == "home" && "lighter" : ""
-        }`}
+        className={`cd-stretchy-nav ${toggle ? "nav-is-visible" : ""} ${light ? nav == "home" && "lighter" : ""
+          }`}
       >
         <a
           className="cd-nav-trigger"
