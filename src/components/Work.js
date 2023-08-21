@@ -6,10 +6,19 @@ import {
   VideoSideBar,
   YoutubeSideBar,
 } from "./WorkSideBar";
+import img1 from '../assets/projects/portfolio_1.JPG';
+import img2 from "../assets/projects/portfolio_2.jpg";
+import img3 from "../assets/projects/portfolio_3.jpg";
+import img4 from "../assets/projects/portfolio_4.jpg";
+import img5 from "../assets/projects/portfolio_5.jpg";
+import img6 from "../assets/projects/portfolio_2.jpg";
+import img7 from "../assets/projects/portfolio_7.jpg";
+import Image from "next/image";
+
 
 const workData = [
   {
-    img: "img/projects/portfolio_1.jpg",
+    img: img1,
     name: "Image Format",
     format: "img",
     project: "BData Solutions Inc.",
@@ -19,7 +28,7 @@ const workData = [
     budget: "1200 USD",
   },
   {
-    img: "img/projects/portfolio_2.jpg",
+    img: img2,
     name: "Youtube Format",
     format: "youtube",
     project: "Teaching Side By Side",
@@ -29,7 +38,7 @@ const workData = [
     budget: "1000 USD",
   },
   {
-    img: "img/projects/portfolio_3.jpg",
+    img: img3,
     name: "Slider Format",
     format: "slider",
     project: "Biot Security",
@@ -39,7 +48,7 @@ const workData = [
     budget: "1550 USD",
   },
   {
-    img: "img/projects/portfolio_4.jpg",
+    img: img4,
     name: "Video Format",
     format: "video",
     project: "TAMM- Abu Dhabi Government Services",
@@ -49,7 +58,7 @@ const workData = [
     budget: "1550 USD",
   },
   {
-    img: "img/projects/portfolio_5.jpg",
+    img: img5,
     name: "Image Format",
     format: "img",
     project: "Toppers Notes",
@@ -59,7 +68,7 @@ const workData = [
     budget: "1550 USD",
   },
   {
-    img: "img/projects/portfolio_2.jpg",
+    img: img6,
     name: "Image Format",
     format: "img",
     project: "WEBSITE",
@@ -69,7 +78,7 @@ const workData = [
     budget: "1550 USD",
   },
   {
-    img: "img/projects/portfolio_7.jpg",
+    img: img7,
     name: "Image Format",
     format: "img",
     project: "Droptrim",
@@ -133,7 +142,7 @@ const Work = () => {
                         data-type="project-1"
                         onClick={() => setActive(i + 1)}
                       >
-                        <img
+                        <Image
                           src={work.img}
                           alt="Project"
                           className="img-fluid"
