@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { useContext } from "react";
 import NavContext from "../context/navContext";
 
@@ -112,11 +113,14 @@ const About = () => {
               </ul>
             </div>
             <div className="col-12 resume-btn-container">
-              <a href="#" className="btn btn-resume">
+              <a download href='../resume-bilal.pdf' className="btn btn-resume">
                 <span>
                   <i className="fa fa-download" />
                   download my cv
                 </span>
+                {/* <Link href='../resume-bilal.pdf' target='_blank' download={true} locale={false} >
+                  
+                </Link> */}
               </a>
             </div>
           </div>
