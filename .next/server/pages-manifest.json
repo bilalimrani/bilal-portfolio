@@ -2,13 +2,5 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/demo": "pages/demo.html",
-  "/index-image-overlay": "pages/index-image-overlay.html",
-  "/api/hello": "pages/api/hello.js",
-  "/index-left-image-light": "pages/index-left-image-light.html",
-  "/index-video-dark": "pages/index-video-dark.html",
-  "/index-video-light": "pages/index-video-light.html",
-  "/index-left-image-dark": "pages/index-left-image-dark.html",
-  "/": "pages/index.html",
-  "/404": "pages/404.html"
+  "/": "pages/index.js"
 }

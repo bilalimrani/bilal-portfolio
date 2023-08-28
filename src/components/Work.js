@@ -1,12 +1,13 @@
 import { Fragment, useContext, useState } from "react";
 import NavContext from "../context/navContext";
-import {
-  ImgSideBar,
-  SliderSideBar,
-  VideoSideBar,
-  YoutubeSideBar,
-} from "./WorkSideBar";
-import img1 from '../assets/projects/portfolio_1.JPG';
+// import {
+//   ImgSideBar,
+//   SliderSideBar,
+//   VideoSideBar,
+//   YoutubeSideBar,
+// } from "./WorkSideBar";
+// import img1 from "../../public/img/projects/portfolio_1.jpg";
+import img1 from '../assets/projects/portfolio_1.jpg';
 import img2 from "../assets/projects/portfolio_2.jpg";
 import img3 from "../assets/projects/portfolio_3.jpg";
 import img4 from "../assets/projects/portfolio_4.jpg";
@@ -170,20 +171,20 @@ const Work = () => {
           >
             {/* Main Content Starts */}
             <div className="project-info-main-content">
-              {work.format == "img" ? (
-                // <ImgSideBar img={work.img} />
-                <Image
-                  src={work.img}
-                  alt="Project"
-                  className="img-fluid"
-                />
-              ) : work.format == "youtube" ? (
+              {/* {work.format == "img" ? (
+               <ImgSideBar img={work.img} /> */}
+              <Image
+                src={work.img}
+                alt="Project"
+                className="img-fluid"
+              />
+              {/* ) : work.format == "youtube" ? (
                 <YoutubeSideBar playing={active} />
               ) : work.format == "slider" ? (
                 <SliderSideBar />
               ) : (
                 <VideoSideBar playing={active} />
-              )}
+              )} */}
             </div>
             {/* Main Content Ends */}
             {/* Project Details Starts */}
