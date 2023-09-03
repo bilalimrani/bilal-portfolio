@@ -6,7 +6,7 @@ import NavContext from "../context/navContext";
 //   VideoSideBar,
 //   YoutubeSideBar,
 // } from "./WorkSideBar";
-// import img1 from "../../public/img/projects/portfolio_1.jpg";
+
 import img1 from '../assets/projects/portfolio_1.jpg';
 import img2 from "../assets/projects/portfolio_2.jpg";
 import img3 from "../assets/projects/portfolio_3.jpg";
@@ -27,6 +27,7 @@ const workData = [
     duration: "6 MONTHS",
     technologies: ["React ", " JAVASCRIPT"],
     budget: "1200 USD",
+    link: "https://www.bdata.ca/",
   },
   {
     img: img2,
@@ -37,6 +38,7 @@ const workData = [
     duration: "3 MONTHS",
     technologies: ["React ", " PostgreSQL", " JavaScript", " TypeScript"],
     budget: "1000 USD",
+    link: "https://teachingsidebyside.com/",
   },
   {
     img: img3,
@@ -47,6 +49,7 @@ const workData = [
     duration: "3 MONTHS",
     technologies: ["React ", " JAVASCRIPT"],
     budget: "1550 USD",
+    link: "https://secure.dev.bdata.ca/login",
   },
   {
     img: img4,
@@ -57,6 +60,7 @@ const workData = [
     duration: "12 MONTHS",
     technologies: ["React ", " JAVASCRIPT"],
     budget: "1550 USD",
+    link: "https://www.tamm.abudhabi/",
   },
   {
     img: img5,
@@ -67,6 +71,7 @@ const workData = [
     duration: "4 MONTHS",
     technologies: ["HTML ", " JAVASCRIPT"],
     budget: "1550 USD",
+    link: "https://web.toppersnotes.com/",
   },
   {
     img: img6,
@@ -77,6 +82,7 @@ const workData = [
     duration: "3 MONTHS",
     technologies: ["HTML", "JAVASCRIPT"],
     budget: "1550 USD",
+    link: "http://mycash.mc.mycashfs.com/",
   },
   {
     img: img7,
@@ -87,6 +93,7 @@ const workData = [
     duration: "6 MONTHS",
     technologies: ["React ", " JavaScript", " Typescript"],
     budget: "1550 USD",
+    link: "https://www.droptrim.com/",
   },
   // {
   //   img: "img/projects/project-8.jpg",
@@ -250,7 +257,7 @@ const Work = () => {
                     </span>
                   </li>
                 </ul>
-                <a href="https://www.bdata.ca/" rel="noreferrer" target="_blank" className="btn">
+                <a href={work.link} rel="noreferrer" target="_blank" className="btn">
                   <span>
                     <i className="fa fa-external-link" />
                     preview
