@@ -21,11 +21,7 @@ const About = () => {
           {/* Personal Infos Starts */}
           <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12">
             <div className="image-container">
-              <img
-                className="img-fluid d-block"
-                src="img/profile.jpg"
-                alt=""
-              />
+              <img className="img-fluid d-block" src="img/profile.jpg" alt="" />
             </div>
             <p className="d-block d-md-none">
               {`I'm`} a Freelance UI/UX Designer and Developer based in London,
@@ -36,7 +32,7 @@ const About = () => {
           </div>
           <div className="row col-xl-6 col-lg-6 col-md-12">
             <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6">
-              <ul className="list-1">
+              <ul className="list-1 hi">
                 <li>
                   <h6>
                     <span className="font-weight-600">First Name</span>
@@ -52,7 +48,8 @@ const About = () => {
                 <li>
                   <h6>
                     <span className="font-weight-600">Birthdate</span>17 Nov
-                    1993                  </h6>
+                    1993{" "}
+                  </h6>
                 </li>
                 <li>
                   <h6>
@@ -89,7 +86,8 @@ const About = () => {
                 </li>
                 <li>
                   <h6>
-                    <span className="font-weight-600">Phone</span>+92 315 6745522
+                    <span className="font-weight-600">Phone</span>+92 315
+                    6745522
                   </h6>
                 </li>
                 <li>
@@ -113,7 +111,7 @@ const About = () => {
               </ul>
             </div>
             <div className="col-12 resume-btn-container">
-              <a download href='../resume-bilal.pdf' className="btn btn-resume">
+              <a download href="../resume-bilal.pdf" className="btn btn-resume">
                 <span>
                   <i className="fa fa-download" />
                   download my cv
@@ -162,36 +160,68 @@ const About = () => {
                       <div className="text-white">
                         <span className="h6">Responsibilities :</span>
                         <ul className="workExperience-list small">
-                          <li>Analyze, design and develop complex frontend systems to fit client and business
-                            requirements.</li>
-                          <li>Oversee frontend development, maintain and merge code from team members</li>
-                          <li>Coordinate with back-end team and assist frontend team members</li>
+                          <li>
+                            Analyze, design and develop complex frontend systems
+                            to fit client and business requirements.
+                          </li>
+                          <li>
+                            Oversee frontend development, maintain and merge
+                            code from team members
+                          </li>
+                          <li>
+                            Coordinate with back-end team and assist frontend
+                            team members
+                          </li>
                         </ul>
-                        <span className="small font-weight-bold">Environment :</span>
-                        <span className="small"> ReactJS, Redux, GraphQL, NodeJS, MongoDB, AWS Services</span>
+                        <span className="small font-weight-bold">
+                          Environment :
+                        </span>
+                        <span className="small">
+                          {" "}
+                          ReactJS, Redux, GraphQL, NodeJS, MongoDB, AWS Services
+                        </span>
                       </div>
                       <br />
                       <div className="text-white">
                         <span className="h6">Applications :</span>
                         <br />
-                        <span className="small font-weight-bold">Application :</span>
-                        <span className="small">  (TAMM, a comprehensive single point access portal for all Abu Dhabi
-                          government services)
+                        <span className="small font-weight-bold">
+                          Application :
+                        </span>
+                        <span className="small">
+                          {" "}
+                          (TAMM, a comprehensive single point access portal for
+                          all Abu Dhabi government services)
                         </span>
                         <ul className="workExperience-list small">
-                          <li>Worked as a Full Stack developer from April 2021 to February 2022</li>
-                          <li>Developed TAMM services and tools for Industrial Business Journey</li>
-                          <li>Developed REST APIs using ExpressJS and created documentation using
-                            Swagger
+                          <li>
+                            Worked as a Full Stack developer from April 2021 to
+                            February 2022
+                          </li>
+                          <li>
+                            Developed TAMM services and tools for Industrial
+                            Business Journey
+                          </li>
+                          <li>
+                            Developed REST APIs using ExpressJS and created
+                            documentation using Swagger
                           </li>
                         </ul>
-                        <span className="small font-weight-bold">Environment :</span>
+                        <span className="small font-weight-bold">
+                          Environment :
+                        </span>
                         <br />
                         <span className="small">Technologies :</span>
-                        <span className="small"> ExpressJS (TypeScript), Camunda, ReactJS, Git</span>
+                        <span className="small">
+                          {" "}
+                          ExpressJS (TypeScript), Camunda, ReactJS, Git
+                        </span>
                         <br />
                         <span className="small">Development Tools :</span>
-                        <span className="small"> VS Code, GitLab, Jira, Camunda Modeler and Cockpit</span>
+                        <span className="small">
+                          {" "}
+                          VS Code, GitLab, Jira, Camunda Modeler and Cockpit
+                        </span>
                       </div>
                     </div>
                   </div>
@@ -210,32 +240,54 @@ const About = () => {
                       <span className="d-block font-weight-400 uppercase">
                         senior software engineer
                         <span className="separator" />
-                        <span className="font-weight-700">NorthBay Solutions</span>
+                        <span className="font-weight-700">
+                          NorthBay Solutions
+                        </span>
                       </span>
                     </div>
                     <div className="card-body">
                       <div className="text-white">
                         <span className="h6">Responsibilities :</span>
                         <ul className="workExperience-list small">
-                          <li>Analyze, design and develop complex frontend systems to fit client and business
-                            requirements.</li>
+                          <li>
+                            Analyze, design and develop complex frontend systems
+                            to fit client and business requirements.
+                          </li>
                           <li>Deploy front on AWS</li>
-                          <li>Analyze the system for possible business solutions/bugs/upgrades</li>
+                          <li>
+                            Analyze the system for possible business
+                            solutions/bugs/upgrades
+                          </li>
                         </ul>
-                        <span className="small font-weight-bold">Environment :</span>
-                        <span className="small"> ReactJS, Redux, GraphQL, NodeJS, MongoDB, AWS Services</span>
+                        <span className="small font-weight-bold">
+                          Environment :
+                        </span>
+                        <span className="small">
+                          {" "}
+                          ReactJS, Redux, GraphQL, NodeJS, MongoDB, AWS Services
+                        </span>
                       </div>
                       <br />
                       <div className="text-white">
                         <span className="h6">Applications :</span>
                         <br />
-                        <span className="small font-weight-bold">Application :</span>
-                        <span className="small"> (Intelligize app used by hundreds of customers) </span>
+                        <span className="small font-weight-bold">
+                          Application :
+                        </span>
+                        <span className="small">
+                          {" "}
+                          (Intelligize app used by hundreds of customers){" "}
+                        </span>
                         <ul className="workExperience-list small">
                           <li>Integrated stripe - payment processing system</li>
-                          <li>Integrated GTM for analytics and Klaviyo for tracking users’ behavior</li>
+                          <li>
+                            Integrated GTM for analytics and Klaviyo for
+                            tracking users’ behavior
+                          </li>
                         </ul>
-                        <span className="small font-weight-bold">Environment :</span>
+                        <span className="small font-weight-bold">
+                          Environment :
+                        </span>
                         <span className="small"> ReactJS, Redux, AWS, Git</span>
                       </div>
                     </div>
@@ -262,12 +314,23 @@ const About = () => {
                       <div className="text-white">
                         <span className="h6">Responsibilities :</span>
                         <ul className="workExperience-list small">
-                          <li>Analyze, design and develop complex frontend systems to fit client and business
-                            requirements.</li>
-                          <li>Manage GitHub repositories including maintaining README files</li>
+                          <li>
+                            Analyze, design and develop complex frontend systems
+                            to fit client and business requirements.
+                          </li>
+                          <li>
+                            Manage GitHub repositories including maintaining
+                            README files
+                          </li>
                         </ul>
-                        <span className="small font-weight-bold">Environment :</span>
-                        <span className="small"> ReactJS, Redux, Angular, NodeJS(Express) MUI, Amazon Web Services</span>
+                        <span className="small font-weight-bold">
+                          Environment :
+                        </span>
+                        <span className="small">
+                          {" "}
+                          ReactJS, Redux, Angular, NodeJS(Express) MUI, Amazon
+                          Web Services
+                        </span>
                       </div>
                     </div>
                   </div>
